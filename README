@@ -1,0 +1,27 @@
+Open Target Folder
+version 1.0.1 (22.12.2003)
+--
+
+introduction.
+This is a Tracker add-on that opens a Tracker window for the folder the selected link target lives in. It is a replacement for Georges-Edouard Berenger's "Reveal Original" Tracker add-on which is no longer maintained and doesn't work correctly; it will cause funny things like Tracker ignoring clicks etc. - for those who plan to write Tracker add-ons
+one day: don't create a second BApplication besides Tracker. It won't like it.
+
+requirements.
+BeOS R5 is required for this application. If you want to use it on a PowerPC you need the Metrowerks C++ Compiler to create the executable, although compilation using that compiler has not been tested - feedback welcome.
+
+installation.
+The Tracker add-on "Open Target Folder-T" should be in /boot/home/config/add-ons/Tracker/. The "Drop it here" directory in this folder links to that target; it will work directly after you put it there.
+If you don't like the "T" as a short cut, replace the "-T" in the same with something that suits your needs; Tracker will use this character as the menu short cut.
+
+history.
+version 1.0.0 (9.11.2003)
+	- initial release.
+
+version 1.0.1 (22.12.2003)
+	- fixed the supported MIME types.
+
+author.
+"albumattr" is written by Axel Dörfler <axeld@pinc-software.de>.
+visit: www.pinc-software.de
+
+Have fun.
